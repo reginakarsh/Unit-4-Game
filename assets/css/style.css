@@ -1,0 +1,123 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background-image: url("../images/blueBackground.jpg");
+}
+
+.container {
+    width: 100%;
+    height: 1100px;
+}
+
+#titleDiv {
+    color: teal;
+    background: peachpuff;
+    font-size: 30px;
+    padding: 10px;
+    margin-right: 75%;
+    margin-top: 10px;
+    margin-left: 10px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+}
+
+#instructionsDiv {
+    color: peachpuff;
+    background: teal;
+    font-size: 20px;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 50%;
+    margin-top: 10px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+}
+
+#randomNumber {
+    color: teal;
+    background: peachpuff;
+    font-size: 40px;
+    width: 200px;
+	height: 125px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 30px;
+    float: left;
+    border-style: solid;
+	border-width: 1px;
+	border-color: black;
+}
+
+#gameCounters {
+    background: teal;
+    color: peachpuff;
+    width: 150px;
+	height: 125px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+    float: left;
+    border-style: solid;
+	border-width: 1px;
+	border-color: black;
+}
+
+#crystalButtons {
+    clear: both;
+    background: white;
+
+}
+
+#crystalTotalLabel {
+	clear: both;
+	width: 250px;
+	height: 35px; 
+    background-color: teal;
+    font-size: 20px;
+    color: peachpuff;
+	font-size: 18px;
+    margin-top: 10px;
+    margin-left: 10px;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	float: left;
+}
+
+#crystalTotal{
+	clear:both;
+	width: 250px;
+	height: 60px;
+    background-color: teal;
+    color: peachpuff;
+	font-size: 30px;
+    margin-top: 5px;
+    margin-left: 10px;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	float: left;
+}
+
+.crystal-images {
+	width: 100px;
+	height: 100px;
+	margin-right: 5px;
+	border: 1px black solid;
+    float: left;
+}
+
+#buttonRed {
+    margin-left: 10px;
+}
